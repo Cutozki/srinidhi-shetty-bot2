@@ -12,7 +12,7 @@ async def ban_users(bot, msg):
         await bot.ban_chat_member(chat_id, user_id)
     except:
         pass
-    await msg.reply_text("Another one bites the dust...!")
+    await msg.reply_text("ᴀɴᴏᴛʜᴇʀ ᴏɴᴇ ʙɪᴛᴇs ᴛʜᴇ ᴅᴜsᴛ...!")
 
 @Ms_officials.on_message(filters.command("unban"))
 async def unban_users(bot, msg):
