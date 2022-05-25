@@ -796,23 +796,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
     elif query.data == "samst":
-
         buttons = [[
-
             InlineKeyboardButton('🦋 ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs 🦋', callback_data='start')
-
         ]]
-
         reply_markup = InlineKeyboardMarkup(buttons)
-
         await query.message.edit_text(
-
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
-
             reply_markup=reply_markup,
-
             parse_mode='html'
-
         )
     elif query.data == "start":
         buttons = [[
@@ -1031,7 +1022,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
-            disable_web_page_preview = True,
             reply_markup=reply_markup,
             parse_mode='html',
             disable_web_page_preview=True
