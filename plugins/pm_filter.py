@@ -1033,7 +1033,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.ABOUT_TXT.format(temp.B_NAME),
             disable_web_page_preview = True,
             reply_markup=reply_markup,
-            parse_mode='html'
+            parse_mode='html',
+            disable_web_page_preview=True
         )
     elif query.data == "restric":
         buttons = [[
@@ -1473,27 +1474,6 @@ async def auto_filter(client, msg, spoll=False):
                     callback_data=f'{pre}_#{file.file_id}',
                 ),
             ]
-            for file in files
-        ]
-        
-
-    if offset != "":
-        key = f"{message.chat.id}-{message.message_id}"
-        BUTTONS[key] = search
-        req = message.from_user.id if message.from_user else 0
-        btn.insert(0,
-            [InlineKeyboardButton(text="💢 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 💢",url="https://t.me/movie_lookam")]
-        )
-        btn.insert(1,
-          [
-            InlineKeyboardButton(f'🦋  {search}  🦋', 'dupe'),
-            InlineKeyboardButton(f'🗂️ ғɪʟᴇs : {len(files)}', 'dupe')
-          ]
-        )
-        btn.append(
-            [InlineKeyboardButton(text=f"🗓️ ᴘᴀɢᴇ 1/{round(int(total_results) / 10)}", callback_data="pages"),
-             InlineKeyboardButton(text="ɴᴇxᴛ ⪼", callback_data=f"next_{req}_{key}_{offset}")]
-        )
     else:
         if SPELL_CHECK_REPLY:  
             reply = search.replace(" ", "+")
@@ -1515,6 +1495,28 @@ async def auto_filter(client, msg, spoll=False):
             "total" : len(btns),
             "buttons" : btns
         }
+            for file in files
+        ]
+        
+
+    if offset != "":
+        key = f"{message.chat.id}-{message.message_id}"
+        BUTTONS[key] = search
+        req = message.from_user.id if message.from_user else 0
+        btn.insert(0,
+            [InlineKeyboardButton(text="💢 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 💢",url="https://t.me/movie_lookam")]
+        )
+        btn.insert(1,
+          [
+            InlineKeyboardButton(f'🦋  {search}  🦋', 'dupe'),
+            InlineKeyboardButton(f'🗂️ ғɪʟᴇs : {len(files)}', 'dupe')
+          ]
+        )
+        btn.append(
+            [InlineKeyboardButton(text=f"🗓️ ᴘᴀɢᴇ 1/{round(int(total_results) / 10)}", callback_data="pages"),
+             InlineKeyboardButton(text="ɴᴇxᴛ ⪼", callback_data=f"next_{req}_{key}_{offset}")]
+        )
+    
         
     else:
         btn.append(
