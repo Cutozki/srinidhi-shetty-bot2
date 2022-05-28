@@ -808,16 +808,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
-            InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
-            ],[      
-            InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
-            ],[
-            InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='samst')
-        ]]
+        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+   ],[
+        InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
+        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
+   ],[      
+        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
+   ],[
+        InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='samst')   
+    ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
         if not START_IMAGE_URL:
