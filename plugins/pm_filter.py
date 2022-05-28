@@ -819,11 +819,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='samst')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
+        await query.message.delete()
+        if not START_IMAGE_URL:
+            await query.message.reply(
+                script.START_TXT.format(
+                    query.from_user.mention, 
+                    temp.U_NAME, 
+                    temp.B_NAME,
+                ),
+                reply_markup=reply_markup
+            )
+        else:
+            await query.message.reply_photo(
+                photo=START_IMAGE_URL,
+                caption=script.START_TXT.format(
+                    query.from_user.mention , 
+                    temp.U_NAME, 
+                    temp.B_NAME,
+                ),
+                reply_markup=reply_markup
+            )
     elif query.data == "photo":
         buttons = [[
             InlineKeyboardButton(text="𝖡𝗋𝗂𝗀𝗍𝗁", callback_data="bright"),
@@ -1037,7 +1052,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
         InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CL_UPDATE'),
         InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam'),
-        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start2')
+        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
@@ -1048,25 +1063,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True
         )
         
-    elif query.data == "start2":
-        buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
-            InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
-            ],[      
-            InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
-            ],[
-            InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='samst')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.delete()
-        await query.message.reply(
-            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
+    elif 
     elif query.data == "restric":
         buttons = [[
             InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='help')
