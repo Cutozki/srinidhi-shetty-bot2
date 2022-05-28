@@ -198,7 +198,7 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
         [
-            InlineKeyboardButton(f'ғɪʟᴇs: {total_results}', 'reqst1''),
+            InlineKeyboardButton(f'ғɪʟᴇs: {total_results}', 'reqst1'),
             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movss'),
             InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'moviis')
         ]
