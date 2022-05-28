@@ -831,7 +831,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.reply_photo(
-                photo=START_IMAGE_URL,
+                photo=PICS,
                 caption=script.START_TXT.format(
                     query.from_user.mention , 
                     temp.U_NAME, 
