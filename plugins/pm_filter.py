@@ -1016,7 +1016,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔰 ᴛᴇʟᴇɢʀᴀᴍ 🔰', url='https://t.me/NL_MP4')
         ], [
  
-            InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data="start"),
+            InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data="me"),
             InlineKeyboardButton('ᴄʟᴏsᴇ ✘', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1035,9 +1035,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "about_menu":
         buttons = [[
-        InlineKeyboardButton('ᴅᴋ ʙᴏᴛx', url='https://t.me/CL_UPDATE'),
+        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CL_UPDATE'),
         InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam'),
-        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
+        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
@@ -1046,6 +1046,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html',
             disable_web_page_preview=True
+        )
+        
+    elif query.data == "start2":
+        buttons = [[
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
+            InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
+            ],[      
+            InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
+            ],[
+            InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='samst')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.delete()
+        await query.message.edit_text(
+            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     elif query.data == "restric":
         buttons = [[
