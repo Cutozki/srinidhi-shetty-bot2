@@ -1062,8 +1062,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html',
             disable_web_page_preview=True
         )
-        
-    elif 
+       
     elif query.data == "restric":
         buttons = [[
             InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='help')
