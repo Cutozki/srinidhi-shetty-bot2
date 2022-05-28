@@ -1,17 +1,29 @@
 class script(object):
     START_TXT = """<b>☆ ʜᴇʟʟᴏ ᴍʏ ғʀɪᴇɴᴅ {} ✩
     
-☆ ᴍʏ ɴᴀᴍᴇ ɪꜱ  <a href=https://t.me/Srinidhi_shetty_bot><b>『 sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ 』</b></a>  ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>"""
+☆ ᴍʏ ɴᴀᴍᴇ ɪꜱ  <a href=https://t.me/CL_FILTER_BOT><b>『 𝐓ʜᴏᴍᴀs 𝐒ʜᴇʟʙʏ 』</b></a>  ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>"""
     HELP_TXT = """💖 𝙷𝙴𝚈 {} 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 💖"""
-    ABOUT_TXT = """<b>○ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Srinidhi_shetty_bot><b>sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ</b></a>
+    ABOUT_TXT = """<b>○ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/CL_FILTER_BOT><b>𝐓ʜᴏᴍᴀs 𝐒ʜᴇʟʙʏ</b></a>
 ○ ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/NL_MP4><b>ɴɪʜᴀᴀʟ</b></a>
 ○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 ○ ʟɪʙʀᴀʀʏ : ᴘʏᴛʜᴏɴ 3
-○ sᴇʀᴠᴇʀ : ᴏᴋᴛᴇᴛᴏ
+○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
 ○ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴀɴɢᴏ ᴅʙ
 ○ ᴠᴇʀsɪᴏɴ : ᴠ 4.0 [ ʙᴇᴛᴀ ]</b>"""
-    OWNER_TXT = """🦋 ʜᴇʀᴇ ᴛᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ 🦋"""
     
+    OWNER_TXT2 = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ɴɪʜᴀᴀʟ
+• ᴜꜱᴇʀɴᴀᴍᴇ : <a href=https://t.me/NL_MP4><b>ɴɪʜᴀᴀʟ</b></a>
+
+⍟───[ 💕 sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs 💕 ]───⍟
+
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴅᴋ
+• ᴜꜱᴇʀɴᴀᴍᴇ : <a href=https://t.me/aboutme_DK>ᴅᴋ</a></b>"""
+    OWNER_TXT = """🦋 ʜᴇʀᴇ ᴛᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ 🦋"""
+    ENGLISHSPELL_TXT = "<b>𝐇𝐞𝐥𝐥𝐨 𝐈 𝐜𝐨𝐮𝐥𝐝 𝐧𝐨𝐭 𝐟𝐢𝐧𝐝 𝐭𝐡𝐞 𝐦𝐨𝐯𝐢𝐞 𝐲𝐨𝐮 𝐚𝐬𝐤𝐞𝐝 𝐟𝐨𝐫 🥴</b>\n\n<b>𝐆𝐨𝐨𝐠𝐥𝐞, 𝐘𝐚𝐧𝐝𝐞𝐱 𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐚𝐧𝐲 𝐛𝐮𝐭𝐭𝐨𝐧 𝐚𝐧𝐝 𝐟𝐢𝐧𝐝 𝐭𝐡𝐞 <u>𝐂𝐎𝐑𝐑𝐄𝐂𝐓 𝐌𝐎𝐕𝐈𝐄 𝐍𝐀𝐌𝐄</u> 𝐚𝐧𝐝 𝐞𝐧𝐭𝐞𝐫 𝐢𝐭 𝐡𝐞𝐫𝐞 𝐛𝐮𝐭 𝐭𝐡𝐞 𝐦𝐨𝐯𝐢𝐞 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 🙃\n\n𝐈𝐟 𝐲𝐨𝐮 𝐝𝐨 𝐧𝐨𝐭 𝐫𝐞𝐜𝐞𝐢𝐯𝐞 𝐭𝐡𝐞 𝐦𝐨𝐯𝐢𝐞 𝐞𝐯𝐞𝐧 𝐚𝐟𝐭𝐞𝐫 𝐞𝐧𝐭𝐞𝐫𝐢𝐧𝐠 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐧𝐚𝐦𝐞 ...</b> <𝐜𝐨𝐝𝐞>@admin 𝐭𝐲𝐩𝐞 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞 <b>𝐈𝐧𝐟𝐨𝐫𝐦 𝐭𝐡𝐞 𝐚𝐝𝐦𝐢𝐧 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐟𝐨𝐫𝐦𝐚𝐭 .. 𝐖𝐞 𝐰𝐢𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐰𝐢𝐭𝐡𝐢𝐧 𝟐𝟒 𝐡𝐨𝐮𝐫𝐬 😇</b>"
+    MALAYALMSPELL_TXT = "<b>ഹലോ {} നിങ്ങൾ ആവശ്യപ്പെട്ട ഈ സിനിമ എനിക്ക് കണ്ടെത്താൻ കഴിഞ്ഞില്ല 🥴 ...\n\nGoogle, Yandex ഏതെങ്കിലും ഒരു ബട്ടണിൽ ക്ലിക്ക് ചെയ്ത് ശരിയായ സിനിമയുടെ പേര് കണ്ടെത്തി ഇവിടെ നൽകുക എന്നാലേ സിനിമ / സീരിയസ് കിട്ടുകയുള്ളു 🙂...\n\nശരിയായ പേര് നൽകിയിട്ടും നിങ്ങൾക്ക് സിനിമ ലഭിക്കുന്നില്ലെങ്കിൽ ...</b> <code>@admin query</code>  <b>ഈ ഫോർമാറ്റിൽ അഡ്മിനെ അറിയിക്കുക .. ഞങ്ങൾ 24 മണിക്കൂറിനുള്ളിൽ അപ്‌ലോഡ്  ചെയ്യും 😇</b>"
+
     DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
 
 ›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
@@ -72,10 +84,10 @@ Note:- Give a user details
 4. /Goal or /Shoot - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙰 𝙶𝙾𝙰𝙻 𝙾𝚁 𝚂𝙷𝙾𝙾𝚃
 5. /luck or /cownd - 𝚂𝙿𝙸𝙽 𝙰𝙽𝙳 𝚃𝚁𝚈 𝚈𝙾𝚄𝚁 𝙻𝚄𝙲𝙺"""
     
-    FOND_TXT = """☾︎𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗙𝗢𝗡𝗧𝗦☽︎
+    FOND_TXT = """𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗙𝗢𝗡𝗧𝗦
 𝙵𝙾𝙽𝚃 𝙸𝚂 𝙰 𝙼𝙾𝙳𝚄𝙻𝙴 𝙵𝙾𝚁 𝙼𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝚂𝚃𝚈𝙻𝙸𝚂𝙷.
 𝙵𝙾𝚁 𝚄𝚂𝙴 𝚃𝙷𝙰𝚃 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝚈𝙿𝙴 /font <your text> 𝚃𝙷𝙴𝙽 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈."""
-
+   
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 » Filter is the feature were users can set automated replies for a particular keyword and bot  will respond whenever a keyword is found the message
@@ -251,11 +263,11 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>➪ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
-<b>➪ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
-<b>➪ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code></b>
-<b>➪ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>
-<b>➪ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>"""
+    STATUS_TXT = """🗂️ ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
+👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+👥 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+📈 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
+📊 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
