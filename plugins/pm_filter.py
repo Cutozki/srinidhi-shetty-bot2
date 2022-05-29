@@ -843,7 +843,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             caption=script.START_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html',
-            disable_web_page_preview=True
         )
     elif query.data == "photo":
         buttons = [[
