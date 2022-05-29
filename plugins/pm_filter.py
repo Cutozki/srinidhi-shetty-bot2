@@ -802,7 +802,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
-        if not random.choice(PICS):
+        if not START_IMAGE_URL:
             await message.reply(
                 script.START_TXT.format(
                     (message.from_user.mention if 
@@ -815,7 +815,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await message.reply_photo(
-                photo=START_IMAGE_URL,
+                photo=random.choice(PICS),
                 caption=script.START_TXT.format(
                     (message.from_user.mention if 
                     message.from_user else 
@@ -832,7 +832,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
         InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
    ],[      
-        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data=photo=START_IMAGE_URL'help'),
         InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
    ],[
         InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
