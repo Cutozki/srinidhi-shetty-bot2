@@ -7,7 +7,7 @@ import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
-    SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, CH_FILTER, CH_LINK
+    SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, CH_FILTER, CH_LINK, START_IMAGE_URL
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
@@ -815,7 +815,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await message.reply_photo(
-                photo=random.choice(PICS),
+                photo=START_IMAGE_URL,
                 caption=script.START_TXT.format(
                     (message.from_user.mention if 
                     message.from_user else 
@@ -1056,7 +1056,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
         InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CL_UPDATE'),
         InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam'),
-        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
+        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='nihu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
