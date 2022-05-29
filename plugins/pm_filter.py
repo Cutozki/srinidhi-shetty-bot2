@@ -500,10 +500,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
-                f'<b>ʜᴇʏ 👋 {query.from_user.mention} 😍</b>\n\n'
-                '<b>📬 ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ✨</b>\n\n'
-                f'<b>🗂️ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <a href=https://t.me/movie_lookam>{title}</a></b>\n\n'
-                f'<b>⚙️ sɪᴢᴇ : {size}</b>\n\n'
+                f'<b> Hai 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Your File is Ready</b>\n\n'           
+                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DK_BOTx] {title}</code>\n\n'              
+                f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>\n\n'
                 '<b>🔻 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ғɪʟᴇ 🔻</b>',
                 True,
                 'html',
