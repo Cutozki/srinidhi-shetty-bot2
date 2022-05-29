@@ -802,6 +802,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.delete()
         if not START_IMAGE_URL:
             await message.reply(
                 script.START_TXT.format(
