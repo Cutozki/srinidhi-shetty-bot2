@@ -803,23 +803,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
         if not START_IMAGE_URL:
-            await message.reply(
+            await query.message.reply(
                 script.START_TXT.format(
-                    (message.from_user.mention if 
-                    message.from_user else 
-                    message.chat.title), 
+                    query.from_user.mention, 
                     temp.U_NAME, 
                     temp.B_NAME,
                 ),
                 reply_markup=reply_markup
             )
         else:
-            await message.reply_photo(
+            await query.message.reply_photo(
                 photo=START_IMAGE_URL,
                 caption=script.START_TXT.format(
-                    (message.from_user.mention if 
-                    message.from_user else 
-                    message.chat.title), 
+                    query.from_user.mention , 
                     temp.U_NAME, 
                     temp.B_NAME,
                 ),
