@@ -45,7 +45,7 @@ async def start(client, message):
         InlineKeyboardButton('🦋 ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs 🦋', callback_data='start')
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        if not START_IMAGE_URL:
+        if not random.choice(PICS):
             await message.reply(
                 script.START_TXT.format(
                     (message.from_user.mention if 
@@ -98,7 +98,7 @@ async def start(client, message):
         InlineKeyboardButton('🦋 ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs 🦋', callback_data='start')
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        if not START_IMAGE_URL:
+        if not random.choice(PICS):
             await message.reply(
                 script.START_TXT.format(
                     (message.from_user.mention if 
