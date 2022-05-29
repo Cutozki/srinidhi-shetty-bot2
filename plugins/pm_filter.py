@@ -838,10 +838,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.delete()
-        await query.message.reply_photo(
+        await query.message.edit_photo(
             photo=random.choice(PICS),
-            caption=script.ABOUT_TXT.format(temp.B_NAME),
+            caption=script.START_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html',
             disable_web_page_preview=True
