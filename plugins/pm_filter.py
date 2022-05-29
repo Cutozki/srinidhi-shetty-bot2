@@ -838,9 +838,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_photo(
-            photo=random.choice(PICS),
-            caption=script.START_TXT.format(temp.B_NAME),
+        await query.message.edit_text(
+            text=script.START_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html',
         )
