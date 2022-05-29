@@ -832,7 +832,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
         InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
    ],[      
-        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data=photo=START_IMAGE_URL'help'),
+        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
    ],[
         InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
