@@ -801,6 +801,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
     ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.START_TXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html',
+        )
+    elif query.data == "start":
+        buttons = [[
+        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+   ],[
+        InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
+        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
+   ],[      
+        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
+   ],[
+        InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
+    ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
         if not START_IMAGE_URL:
             await query.message.reply(
@@ -821,24 +839,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ),
                 reply_markup=reply_markup
             )
-    elif query.data == "start":
-        buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-   ],[
-        InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
-        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
-   ],[      
-        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
-   ],[
-        InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
-    ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.START_TXT.format(temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode='html',
-        )
+        
     elif query.data == "photo":
         buttons = [[
             InlineKeyboardButton(text="𝖡𝗋𝗂𝗀𝗍𝗁", callback_data="bright"),
@@ -1052,7 +1053,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
         InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CL_UPDATE'),
         InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam'),
-        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='nihu')
+        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
