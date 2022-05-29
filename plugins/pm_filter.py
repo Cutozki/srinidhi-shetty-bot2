@@ -500,7 +500,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
-                f'<b> Hai 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Your File is Ready</b>\n\n'           
+                f'<b> ʜᴇʏ 👋 {query.from_user.mention} </b>😍\n\n<b>📫 ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ 📥</b>\n\n'           
                 f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DK_BOTx] {title}</code>\n\n'              
                 f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>\n\n'
                 '<b>🔻 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ғɪʟᴇ 🔻</b>',
@@ -1056,7 +1056,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
         InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CL_UPDATE'),
         InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam'),
-        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
+        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='nihu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
