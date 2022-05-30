@@ -203,36 +203,30 @@ async def next_page(bot, query):
             InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'moviis')
         ]
     )
-        
-
-    if 0 < offset <= 6:
+    if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
         off_set = None
     else:
-        off_set = offset - 6
+        off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("ᴘᴀɢᴇs", callback_data="pages"),
-             InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}",
-                                  callback_data="pages"),
-             InlineKeyboardButton("⪻ ᴘʀᴇᴠɪᴏᴜs", callback_data=f"next_{req}_{key}_{off_set}")]
+            [InlineKeyboardButton("◀️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"📃 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}",
+                                  callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
-            [
-                InlineKeyboardButton("ᴘᴀɢᴇs", callback_data="pages"),
-                InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("ɴᴇxᴛ ⪼", callback_data=f"next_{req}_{key}_{n_offset}")]
-        )
+            [InlineKeyboardButton(f"📃 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+             InlineKeyboardButton("𝗡𝗲𝘅𝘁 ▶️", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⪻ ᴘʀᴇᴠɪᴏᴜs", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("ɴᴇxᴛ ⪼", callback_data=f"next_{req}_{key}_{n_offset}")]
+                InlineKeyboardButton("◀️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f"📃 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton("𝗡𝗲𝘅𝘁 ▶️", callback_data=f"next_{req}_{key}_{n_offset}")
+            ],
         )
-
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -240,6 +234,8 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
+
+    
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
