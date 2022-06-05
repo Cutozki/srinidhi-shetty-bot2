@@ -4,7 +4,7 @@ class script(object):
 ☆ ᴍʏ ɴᴀᴍᴇ ɪꜱ  <a href=https://t.me/Srinidhi_shetty_bot><b>『 sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ 』</b></a>  ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>"""
     HELP_TXT = """💖 𝙷𝙴𝚈 {} 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 💖"""
     ABOUT_TXT = """<b>○ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Srinidhi_shetty_bot><b>sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ</b></a>
-○ ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/NL_MP4><b>ɴɪʜᴀᴀʟ</b></a>
+○ ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/Cutozki><b>ɴɪʜᴀᴀʟ</b></a>
 ○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 ○ ʟɪʙʀᴀʀʏ : ᴘʏᴛʜᴏɴ 3
 ○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
@@ -14,7 +14,7 @@ class script(object):
     OWNER_TXT2 = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍᴜʜᴀᴍᴍᴇᴅ ɴɪʜᴀᴀʟ
-• ᴜꜱᴇʀɴᴀᴍᴇ : <a href=https://t.me/NL_MP4><b>ɴɪʜᴀᴀʟ</b></a>
+• ᴜꜱᴇʀɴᴀᴍᴇ : <a href=https://t.me/Cutozki><b>ɴɪʜᴀᴀʟ</b></a>
 
 ⍟───[ 💕 sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs 💕 ]───⍟
 
@@ -35,7 +35,7 @@ class script(object):
 ✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/NL_MP4><b>Nɪʜᴀᴀʟ</b></a> ᚛━━━━━━━━━━━━
+━━━━━━━━━━━━᚜ <a href=https://t.me/Cutozki><b>Nɪʜᴀᴀʟ</b></a> ᚛━━━━━━━━━━━━
 
 ›› <b>𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b>
 
@@ -46,7 +46,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 ✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/NL_MP4><b>Nɪʜᴀᴀʟ</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=https://t.me/Cutozki><b>Nɪʜᴀᴀʟ</b></a> ᚛━━━━━━━━━━━━"""
     PROMOTION_TXT = """<b>〄 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧 〄</b>
 
 ⪼ <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐫𝐨𝐦𝐨𝐭𝐞 . 
@@ -56,7 +56,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 ✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ a href=https://t.me/NL_MP4><b>Nɪʜᴀᴀʟ</b></a> ᚛━━━━━━━━━━━━""" 
+━━━━━━━━━━━━᚜ a href=https://t.me/Cutozki><b>Nɪʜᴀᴀʟ</b></a> ᚛━━━━━━━━━━━━""" 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
 <b>𝙱𝚈 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚂𝚃𝙾𝚁𝙴 𝙵𝙸𝙻𝙴𝚂 𝙸𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝙰𝙽𝙳 𝙸 𝚆𝙸𝙻𝙻 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄 𝙰 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝙻𝙸𝙽𝙺  𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝚃𝙷𝙴 𝚂𝙰𝚅𝙴𝙳 𝙵𝙸𝙻𝙴𝚂.𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰 𝙿𝚄𝙱𝙻𝙸𝙲 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙵𝙸𝙻𝚆 𝙻𝙸𝙽𝙺 𝙾𝙽𝙻𝚈  𝙾𝚁 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰  𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚈𝙾𝚄 𝙼𝚄𝚂𝚃 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽 𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝙵𝙸𝙻𝙴𝚂...//</b>
@@ -69,7 +69,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
-<code>/batch https://t.me/CLUpdatez/3 https://t.me/CLUpdatez/8</code>
+<code>/batch https://t.me/Mkvtvseris/659 https://t.me/Mkvtvseris/660</code>
 """
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
@@ -112,7 +112,7 @@ Note:- Give a user details
 
 𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/NL_MP4>𝙽𝙸𝙷𝙰𝙰𝙻</a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/Cutozki</a>"""
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>𝙿𝙸𝙽 𝙰 𝙼𝙴𝚂𝚂𝙰𝙶𝙴../</b>
 
@@ -210,7 +210,7 @@ Delete A Lot Of Messages From Groups!
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MWUpdatez)</code>
+<code>[Button Text](buttonurl:https://t.me/Mkvtvseris/659)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
