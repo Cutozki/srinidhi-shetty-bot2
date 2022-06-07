@@ -811,7 +811,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
    ],[
         InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
-        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
+        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/+Ucxf61FLuAthMjY9')
    ],[      
         InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
@@ -1029,7 +1029,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner":
         buttons = [[       
             InlineKeyboardButton('🔰 ɪɴsᴛᴀɢʀᴀᴍ 🔰', url='https://instagram.com/__nihaal_efx__?igshid=YmMyMTA2M2Y='),
-            InlineKeyboardButton('🔰 ᴛᴇʟᴇɢʀᴀᴍ 🔰', url='https://t.me/NL_MP4')
+            InlineKeyboardButton('🔰 ᴛᴇʟᴇɢʀᴀᴍ 🔰', url='https://t.me/Cutozki')
         ], [
  
             InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data="me"),
@@ -1051,8 +1051,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "about_menu":
         buttons = [[
-        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CL_UPDATE'),
-        InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam'),
+        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+1IYAodT0pBw0NjU1'),
+        InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+Ucxf61FLuAthMjY9'),
         InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
