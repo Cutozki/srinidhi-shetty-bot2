@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>☆ ʜᴇʟʟᴏ ᴍʏ ғʀɪᴇɴᴅ {} ✩
     
-☆ ᴍʏ ɴᴀᴍᴇ ɪꜱ  <a href=https://t.me/Pro_FSerach_bot><b>『 sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ 』</b></a>  ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>"""
+☆ ᴍʏ ɴᴀᴍᴇ ɪꜱ  <a href=https://t.me/Pro_FSerach_bot><b>『 Hande Erçel 』</b></a>  ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>"""
     HELP_TXT = """💖 𝙷𝙴𝚈 {} 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 💖"""
     ABOUT_TXT = """<b>○ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Pro_FSerach_bot><b>sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ</b></a>
 ○ ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/Cutozki><b>ɴɪʜᴀᴀʟ</b></a>
